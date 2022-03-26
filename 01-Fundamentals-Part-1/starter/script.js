@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -8,3 +9,6 @@ let firstName = "Sander";
 console.log(firstName);
 
 const PI = 3.14;
+*/
+
+// console.log(typeof true);

@@ -1,10 +1,15 @@
-//First assignment
+//First assignment Values and Variables
+
 let country = "Norway";
 let continent = "Europe";
 let population = 5379000;
 
-console.log(country)
-console.log(continent)
-console.log(population)
+//Second assignment Data Types
 
-//Second assignment
+let isIsland = false;
+let language
+
+console.log(isIsland);
+console.log(population);
+console.log(country);
+console.log(language);
