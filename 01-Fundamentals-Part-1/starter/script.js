@@ -6,3 +6,5 @@ console.log(23);
 
 let firstName = "Sander";
 console.log(firstName);
+
+const PI = 3.14;
