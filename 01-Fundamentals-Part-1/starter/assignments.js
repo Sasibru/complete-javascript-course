@@ -32,10 +32,13 @@ const johnWeightTwo = 85;
 const bmiJohnOne = johnWeightOne / johnHeightOne ** 2;
 const bmiJohnTwo = johnWeightTwo / (johnHeightTwo * johnHeightTwo);
 
-// Add boolean variable here
+const markHigherBmiOne = bmiMarkOne > bmiJohnOne;
+const markHigherBmiTwo = bmiMarkTwo > bmiJohnTwo;
 
 
 console.log(bmiMarkOne);
 console.log(bmiMarkTwo);
 console.log(bmiJohnOne);
 console.log(bmiJohnTwo);
+console.log(markHigherBmiOne);
+console.log(markHigherBmiTwo);
