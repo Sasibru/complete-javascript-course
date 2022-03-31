@@ -15,7 +15,7 @@
 //console.log(language);
 
 // Coding Challenge #1
-
+/*
 const markHeightOne = 1.69;
 const markWeightOne = 78;
 const markHeightTwo = 1.88;
@@ -42,3 +42,4 @@ console.log(bmiJohnOne);
 console.log(bmiJohnTwo);
 console.log(markHigherBmiOne);
 console.log(markHigherBmiTwo);
+*/
