@@ -18,3 +18,41 @@ age = 31;
 
 const birthYear = 1995;
 */
+
+
+// Template literals
+
+// const firstName = 'Sander';
+// const job = 'sound engineer'
+// const birthYear = 1995;
+// const year = 2022;
+
+// const sander = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+
+// console.log(sander);
+
+// const sanderNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+
+// console.log(sanderNew);
+
+//IF ELSE
+/*
+const age = 15;
+
+if (age >= 18) {
+    console.log('Sarah can start driving license 🐱')
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young, wait another ${yearsLeft} years :)`)
+}
+
+const birthYear = 1995;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+*/
