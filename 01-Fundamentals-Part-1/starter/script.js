@@ -57,8 +57,13 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
-//Convert string to number
+// Type conversion
 // const inputYear = '1995';
 // console.log(Number(inputYear) + 18);
 // console.log(inputYear + 18);
 
+// Type coercion
+// console.log('I am ' + 27 + ' years old')// Pluss converter number til strings
+// console.log('23' - '10' - 3); // Minus converter strings til numbers
+// console.log('23' * '2'); //Converter strings til numbers
+// console.log('23' / '2'); //Converter strings til numbers
