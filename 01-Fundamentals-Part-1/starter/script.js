@@ -56,3 +56,9 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
+
+//Convert string to number
+// const inputYear = '1995';
+// console.log(Number(inputYear) + 18);
+// console.log(inputYear + 18);
+
