@@ -91,3 +91,34 @@ if (height >= 0) {
 }
 */
 
+// === vs ==
+/*
+const age = 18; //endre dette til string for else statement
+if (age === 18) {
+    console.log('Hello adult (strict)')
+} else {
+    console.log('Hello adult (loose)')
+}
+*/
+//avoid loose så mye som mulig
+
+/* Loose
+const favourite = prompt("What's your favorite number?");
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite == 23) { // '23' == 23
+    console.log("Cool, 23 is an amazing number!")
+}
+*/
+
+/* Strict
+const favourite = Number(prompt("What's your favorite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) { // '23' == 23
+    console.log("Cool, 23 is an amazing number!")
+}
+*/
+
