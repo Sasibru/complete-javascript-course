@@ -58,7 +58,7 @@ if (markBMI > johnBMI) {
 
 
 // Coding Challenge #3
-
+/*
 const dolphins = (96 + 108 + 89) / 3;
 const koalas = (88 + 91 + 110) / 3;
 const minScore = 100;
@@ -70,3 +70,5 @@ if (dolphins > koalas) {
 } else if (dolphins === koalas) {
     console.log("Both win!")
 }
+*/
+
