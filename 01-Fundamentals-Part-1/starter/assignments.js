@@ -76,7 +76,7 @@ const koalas = (109 + 95 + 123) / 3;
 
 if (dolphins > koalas && dolphins >= 100) {
     console.log("Dolphins wins!")
-} else if (dolphins < koalas && dolphins >= 100) {
+} else if (dolphins < koalas && koalas >= 100) {
     console.log("Koalas wins!")
 } else if (dolphins === koalas && dolphins >= 100 && koalas >= 100) {
     console.log("Both win!")
