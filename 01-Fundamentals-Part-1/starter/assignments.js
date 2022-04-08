@@ -61,7 +61,6 @@ if (markBMI > johnBMI) {
 /*
 const dolphins = (96 + 108 + 89) / 3;
 const koalas = (88 + 91 + 110) / 3;
-const minScore = 100;
 
 if (dolphins > koalas) {
     console.log("Dolphins wins!")
@@ -69,6 +68,20 @@ if (dolphins > koalas) {
     console.log("Koalas wins!")
 } else if (dolphins === koalas) {
     console.log("Both win!")
+}
+
+//Bonus 1 & 2
+const dolphins = (97 + 112 + 101) / 3;
+const koalas = (109 + 95 + 123) / 3;
+
+if (dolphins > koalas && dolphins >= 100) {
+    console.log("Dolphins wins!")
+} else if (dolphins < koalas && dolphins >= 100) {
+    console.log("Koalas wins!")
+} else if (dolphins === koalas && dolphins >= 100 && koalas >= 100) {
+    console.log("Both win!")
+} else {
+    console.log('No one wins the trophy');
 }
 */
 
