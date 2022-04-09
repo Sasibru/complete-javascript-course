@@ -187,3 +187,24 @@ if (favourite === 23) { // '23' == 23
 // } else if (day === 'wednesday' || day === 'thursday') {
 //     console.log('Write code examples');
 // }
+
+// The conditional (Ternary) operator
+
+// const age = 23;
+// age >= 18 ? console.log('I like to drink wine') :
+//     console.log('I like to drink water');
+
+// const drink = age >= 18 ? 'Wine' : 'Water';
+// console.log(drink);
+
+// Hvis du skulle gjort det samme med if else:
+// let drink2;
+// if (age >= 18) {
+//     drink2 = 'Wine';
+// } else {
+//     drink2 = 'Water';
+// }
+// console.log(drink2);
+
+// I en template literal:
+// console.log(`I like to drink ${age >= 18 ? 'Wine' : 'Water'}`)
