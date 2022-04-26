@@ -33,6 +33,7 @@
 
 
 // Function declaration
+
 // function calcAge1(birthYear) {
 //     return 2022 - birthYear;
 // }
@@ -41,20 +42,40 @@
 // console.log(age1);
 
 // Function expression
+
 // const calcAge2 = function (birthYear) {
 //     return 2022 - birthYear;
 // }
 // const age2 = calcAge2(1995);
 
 // Arrow function
+
 // const calcAge3 = birthYear => 2022 - birthYear;
 // const age3 = calcAge3(1995);
 
 // const yearsUntilRetirement = (birthYear, firstName) => {
 //     const age = 2022 - birthYear;
 //     const retirement = 65 - age;
-    // return retirement;
+// return retirement;
 //     return `${firstName} retires in ${retirement} years`
 // }
 
 // console.log(yearsUntilRetirement(1995, 'Sander'));
+
+// Functions calling other functions
+
+// function cutFruitPieces(fruit) {
+//     return fruit * 4;
+// };
+
+// function fruitProcessor(apples, oranges) {
+
+//     const applePieces = cutFruitPieces(apples);
+//     const orangePieces = cutFruitPieces(oranges);
+
+//     const juice = `Juice with ${applePieces} pieces of apples and ${orangePieces} pieces of oranges.`
+//     return juice;
+// }
+
+// console.log(fruitProcessor(2, 3));
+
