@@ -105,6 +105,39 @@
 
 // ARRAYS
 
-const friendOne = 'Michael';
-const friendTwo = 'Steven';
-const friendThree = 'Peter';
+// const friendOne = 'Michael';
+// const friendTwo = 'Steven';
+// const friendThree = 'Peter';
+
+// const friends = ['Michael', 'Steven', 'Peter'];
+// console.log(friends);
+
+// const y = new Array(1995, 1984, 2008, 2022);
+
+// console.log(friends[0]);
+// console.log(friends[2]);
+
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = 'Jay'
+// console.log(friends);
+
+// const firstName = 'Sander'
+// const sander = [firstName, 'Simonsen', 'Brustad', 2022 - 1995, friends];
+// console.log(sander)
+
+// // Exercise
+
+// const calcAge = function (birthYear) {
+//     return 2037 - birthYear;
+// }
+// const years = [1990, 1967, 2002, 2010, 2018];
+
+// const ageOne = calcAge(years[0]);
+// const ageTwo = calcAge(years[1]);
+// const ageThree = calcAge(years[years.length - 1]);
+// console.log(ageOne, ageTwo, ageThree);
+
+// const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+// console.log(ages);
