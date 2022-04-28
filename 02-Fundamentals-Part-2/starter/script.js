@@ -96,9 +96,15 @@
 //         return -1;
 //     }
 
-    // return retirement;
+// return retirement;
 
 // }
 // console.log(yearsUntilRetirement(1995, 'Sander'));
 // console.log(yearsUntilRetirement(1950, 'Mike'));
 
+
+// ARRAYS
+
+const friendOne = 'Michael';
+const friendTwo = 'Steven';
+const friendThree = 'Peter';
