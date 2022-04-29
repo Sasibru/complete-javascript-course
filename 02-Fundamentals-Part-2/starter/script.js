@@ -141,3 +141,34 @@
 
 // const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 // console.log(ages);
+
+// Add elements
+const friends = ['Michael', 'Steven', 'Peter'];
+const newLength = friends.push('Jay'); //Legge til paa slutten
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('John'); // Legge til paa starten
+console.log(friends);
+
+// Remove elements
+friends.pop() //Det siste elementet
+console.log(friends);
+const popped = friends.pop();
+console.log(popped);
+
+friends.shift(); // First element
+console.log(friends);
+
+console.log(friends.indexOf('Steven')); //sjekke hvor et element ligger i arrayen
+console.log(friends.indexOf('Bob')); // Finnes ikke saa den vil vise -1
+
+friends.push(23);
+console.log(friends.includes('Steven')); // Finnes saa vil bli True
+console.log(friends.includes('Bob')); // Finnes ikke saa vil bli False
+console.log(friends.includes('23')); // Strict equality saa vil bli false
+console.log(friends.includes(23)); // True
+
+if (friends.includes('Steven')) {
+    console.log('You have a friend called Steven');
+}
