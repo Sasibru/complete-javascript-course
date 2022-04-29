@@ -143,6 +143,7 @@
 // console.log(ages);
 
 // Add elements
+/*
 const friends = ['Michael', 'Steven', 'Peter'];
 const newLength = friends.push('Jay'); //Legge til paa slutten
 console.log(friends);
@@ -172,3 +173,5 @@ console.log(friends.includes(23)); // True
 if (friends.includes('Steven')) {
     console.log('You have a friend called Steven');
 }
+*/
+

@@ -2,7 +2,7 @@
 
 // Coding challenge #1
 
-const calcAverage = (vOne, vTwo, vThree) => (vOne + vTwo + vThree) / 3;
+// const calcAverage = (vOne, vTwo, vThree) => (vOne + vTwo + vThree) / 3;
 
 // // Test 1
 // let scoreDolphins = calcAverage(44, 23, 71);
@@ -26,3 +26,15 @@ const calcAverage = (vOne, vTwo, vThree) => (vOne + vTwo + vThree) / 3;
 // scoreKoalas = calcAverage(23, 34, 27);
 // checkWinner(scoreDolphins, scoreKoalas);
 
+
+
+
+
+//Coding Challenge #2
+
+const calcTip = function (valueBeforeTip) {
+    const valueBeforeTip =  
+}
+
+
+const bills = [125, 555, 44];
