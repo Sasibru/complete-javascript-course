@@ -32,9 +32,12 @@
 
 //Coding Challenge #2
 
-const calcTip = function (valueBeforeTip) {
-    const valueBeforeTip =  
-}
-
+const calcTip = billValue => billValue <= 300 && billValue >= 50 ? billValue * 0.15 : billValue * 0.2;
 
 const bills = [125, 555, 44];
+
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[bills.length - 1])];
+
+const total = [calcTip(bills[0]) + bills[0], calcTip(bills[1]) + bills[1], calcTip(bills[bills.length - 1]) + bills[bills.length - 1]];
+
+console.log(total);
