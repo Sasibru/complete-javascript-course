@@ -175,3 +175,83 @@ if (friends.includes('Steven')) {
 }
 */
 
+// OBJECTS
+/*
+const sander = {
+    firstName: 'Sander',
+    lastName: 'Brustad',
+    age: 2022 - 1995,
+    job: 'Soundtechnician',
+    friends: ['Oscar', 'Andreas', 'Joakim']
+};
+*/
+/*
+const sander = {
+    firstName: 'Sander',
+    lastName: 'Brustad',
+    age: 2022 - 1995,
+    job: 'Soundtechnician',
+    friends: ['Oscar', 'Andreas', 'Joakim']
+};
+
+console.log(sander);
+
+console.log(sander.lastName);
+console.log(sander['lastName']);
+
+const nameKey = 'Name';
+console.log(sander['first' + nameKey]);
+console.log(sander['last' + nameKey]);
+
+// const interestedIn = prompt('What do you want to know about Sander? Choose between firstName, lastName, age, job and friends');
+
+// if (sander[interestedIn]) {
+//     console.log(sander[interestedIn]);
+// } else {
+//     console.log('Wrong request! Choose between firstName, lastName, age, job and friends')
+// };
+
+sander.location = 'Norway';
+sander['twitter'] = '@donthave';
+console.log(sander);
+
+//Challenge
+console.log(`${sander.firstName} has ${sander.friends.length} friends, and his best friend is called ${sander.friends[1]}.`)
+*/
+
+// Object methods
+/*
+const sander = {
+    firstName: 'Sander',
+    lastName: 'Brustad',
+    birthYear: 1995,
+    job: 'Soundtechnician',
+    friends: ['Oscar', 'Andreas', 'Joakim'],
+    hasDriversLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2022 - birthYear;
+    // }
+
+    // calcAge: function () {
+    //     return 2022 - this.birthYear;
+    // }
+
+    calcAge: function () {
+        this.age = 2022 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} drivers license.`
+    }
+};
+
+console.log(sander.calcAge());
+console.log(sander.age);
+console.log(sander['calcAge'](1995));
+
+//Challenge
+console.log(sander.getSummary());
+*/
+
