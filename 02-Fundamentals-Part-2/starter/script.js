@@ -277,6 +277,59 @@ for (let rep = 1; rep <= 10; rep++) {
 }
 */
 
+/*
+const sanderArray = [
+    'Sander',
+    'Brustad',
+    2022 - 1995,
+    'SoundTechnician',
+    ['Oscar', 'Andreas', 'Joakim'],
+    true
+];
+const types = [];
+
+// console.log(sanderArray[0]);
+// console.log(sanderArray[1]);
+// ...
+// console.log(sanderArray[4]);
+// sanderArray[5] does NOT exist
+
+for (let i = 0; i < sanderArray.length; i++) {
+    // Reading from sanderArray
+    console.log(sanderArray[i], typeof sanderArray[i]);
+
+    // Filling types Array
+    // types[i] = typeof sanderArray[i];
+    types.push(typeof sanderArray[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2037 - years[i]);
+}
+console.log(ages);
+
+
+// Continue and break
+console.log('--- ONLY STRINGS ---')
+for (let i = 0; i < sanderArray.length; i++) {
+    if (typeof sanderArray[i] !== 'string') continue;
+
+    console.log(sanderArray[i], typeof sanderArray[i]);
+}
+
+console.log('--- BREAK WITH NUMBER ---')
+for (let i = 0; i < sanderArray.length; i++) {
+    if (typeof sanderArray[i] === 'number') break;
+
+    console.log(sanderArray[i], typeof sanderArray[i]);
+}
+*/
+
 const sanderArray = [
     'Sander',
     'Brustad',
@@ -285,11 +338,3 @@ const sanderArray = [
     ['Oscar', 'Andreas', 'Joakim']
 ];
 
-// console.log(sanderArray[0]);
-// console.log(sanderArray[1]);
-// ...
-// console.log(sanderArray[4]);
-
-for (let i = 0; ; i++) {
-    console.log(sanderArray[0])
-}
