@@ -255,3 +255,41 @@ console.log(sander['calcAge'](1995));
 console.log(sander.getSummary());
 */
 
+
+
+// LOOPS
+
+/*
+// console.log('Lifting weights repitition 1');
+// console.log('Lifting weights repitition 2');
+// console.log('Lifting weights repitition 3');
+// console.log('Lifting weights repitition 4');
+// console.log('Lifting weights repitition 5');
+// console.log('Lifting weights repitition 6');
+// console.log('Lifting weights repitition 7');
+// console.log('Lifting weights repitition 8');
+// console.log('Lifting weights repitition 9');
+// console.log('Lifting weights repitition 10');
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repitition ${rep}`);
+}
+*/
+
+const sanderArray = [
+    'Sander',
+    'Brustad',
+    2022 - 1995,
+    'SoundTechnician',
+    ['Oscar', 'Andreas', 'Joakim']
+];
+
+// console.log(sanderArray[0]);
+// console.log(sanderArray[1]);
+// ...
+// console.log(sanderArray[4]);
+
+for (let i = 0; ; i++) {
+    console.log(sanderArray[0])
+}
