@@ -56,21 +56,21 @@ const calcTempAmplitude = function (t1, t2) {
 
 
 // Coding challenge
-
+/*
 const temperatures = [17, 21, 23];
 const temperaturesTwo = [12, 5, -5, 0, 4]
-let days = 0;
+
 
 const printForecast = function(arr) {
-
+    let str = '';
     for (let i = 0; i < temperaturesTwo.length; i++){
-        if (i < temperaturesTwo.length) {
-            days++;
-        }
-        console.log(`... ${temperaturesTwo[i]} celsius in ${days} days.`);
+        str += `${arr[i]} celsius in ${i + 1} days ... `
     }
+    console.log('...' + str);
 }
 
 
 //Hvordan faa de til hver sin string?
 printForecast(temperaturesTwo);
+
+*/
