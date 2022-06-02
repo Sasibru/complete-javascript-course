@@ -55,6 +55,52 @@ const restaurant = {
 };
 
 /*
+////////////////////////
+// Nullish coalescing operator (??)
+restaurant.numGuests = 0;
+const guests = restaurant.numGuests || 10;
+console.log(guests);
+
+// Nullish: null and undefined ( 0 og '' er ikke falsy values)
+const guestCorrect = restaurant.numGuests ?? 10;
+console.log(guestCorrect);
+*/
+
+/*
+//////////////////////////////////////////
+// Short circuting ( && and || )
+
+console.log('------ OR ------');
+// Use ANY data type, return ANY data type, short-circuting
+console.log(3 || 'Sander');
+console.log('' || 'Sander');
+console.log(true || 0);
+console.log(undefined || null);
+
+console.log(undefined || 0 || '' || 'Hello' || 23 || null);
+
+// restaurant.numGuests = 23;
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guests1);
+
+const guests2 = restaurant.numGuests || 10;
+console.log(guests2);
+
+console.log('----- AND -----');
+console.log(0 && 'Sander');
+console.log(7 && 'Sander');
+
+console.log('Hello' && 23 && null && 'Sander');
+
+// Practical example
+if (restaurant.orderPizza) {
+  restaurant.orderPizza('Mushrooms', 'Spinach');
+}
+
+restaurant.orderPizza && restaurant.orderPizza('Mushrooms', 'Spinach');
+*/
+
+/*
 //////////////////
 // REST operator
 
