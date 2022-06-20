@@ -115,3 +115,8 @@ let countUp = 1;
 for (const goals of game.scored) {
   console.log(`Goal ${countUp++}: ${goals}`);
 }
+
+for (const odds in game.odds) {
+  let avgOdds = game.odds[odds];
+  console.log(avgOdds);
+}
