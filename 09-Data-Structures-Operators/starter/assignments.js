@@ -111,12 +111,30 @@ const game = {
     team2: 6.5,
   },
 };
+
+// Loop player goals
 let countUp = 1;
 for (const goals of game.scored) {
   console.log(`Goal ${countUp++}: ${goals}`);
 }
 
+// Calculate averages
+let total = 0;
+
+// Add
 for (const odds in game.odds) {
-  let avgOdds = game.odds[odds];
-  console.log(avgOdds);
+  let oddsCombined = game.odds[odds];
+  total += oddsCombined;
+}
+
+// Divide
+let avgOdds = total / 3;
+
+console.log(avgOdds);
+
+// print the odds to the console
+for (const odds in game.odds) {
+  console.log(`Odd of ${game.team1}: ${game.odds.team1}
+  Odd of draw: ${game.odds.x}
+  Odd of ${game.team2}: ${game.odds.team2}`);
 }
