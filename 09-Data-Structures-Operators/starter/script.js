@@ -67,6 +67,17 @@ const restaurant = {
   },
 };
 
+const ordersSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
+
+console.log(ordersSet);
+
 /*
 ///////////////
 // Looping objects
