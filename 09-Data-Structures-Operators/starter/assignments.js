@@ -70,7 +70,7 @@ team1 > team2 && console.log('Team 2 is more likely to win!');
 
 ////////////////////////////////////////////
 // Coding challenge #2
-
+/*
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
@@ -130,3 +130,4 @@ for (const [team, odd] of Object.entries(game.odds)) {
   const teamStr = team === 'x' ? 'draw' : `victory ${game[team]}`;
   console.log(`Odd of ${teamStr} ${odd}`);
 }
+*/

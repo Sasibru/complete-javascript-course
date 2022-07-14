@@ -40,6 +40,9 @@ const restaurant = {
     );
   },
 
+
+  const ordersSet = new Set(['Pasta', 'Pizza', 'Pizza', 'Risotto', 'Pasta', 'Pizza',]);
+
   // openingHours: {
   //   thu: {
   //     open: 12,
